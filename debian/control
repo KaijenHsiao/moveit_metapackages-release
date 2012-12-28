@@ -1,0 +1,12 @@
+Source: ros-groovy-moveit-full
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-moveit-ros,ros-groovy-moveit-commander,ros-groovy-catkin,ros-groovy-moveit-setup-assistant,ros-groovy-moveit-planners
+Homepage: http://moveit.ros.org
+Standards-Version: 3.9.2
+
+Package: ros-groovy-moveit-full
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-moveit-ros,ros-groovy-moveit-commander,ros-groovy-moveit-setup-assistant,ros-groovy-moveit-planners
+Description: All MoveIt components and plugins
