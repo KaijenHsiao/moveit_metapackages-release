@@ -1,0 +1,12 @@
+Source: ros-groovy-moveit-source-build-deps
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-rosconsole,ros-groovy-catkin,libeigen3-dev,ros-groovy-urdf,ros-groovy-rqt,ros-groovy-ompl,ros-groovy-console-bridge,ros-groovy-pcl-ros,ros-groovy-rospy,ros-groovy-roscpp,ros-groovy-fcl,ros-groovy-actionlib,ros-groovy-eigen-conversions,ros-groovy-control-msgs,yaml-cpp0.2.6-dev,ros-groovy-tf,ros-groovy-geometric-shapes,ros-groovy-eigen-stl-containers,ros-groovy-shape-tools,ros-groovy-shape-msgs,ros-groovy-interactive-markers,ros-groovy-message-filters,python-dev,ros-groovy-rostime,ros-groovy-sensor-msgs,ros-groovy-octomap-msgs,assimp-dev,ros-groovy-random-numbers,ros-groovy-srdfdom,ros-groovy-manipulation-msgs,ros-groovy-tf-conversions,ros-groovy-rviz,ros-groovy-dynamic-reconfigure,ros-groovy-pluginlib,ros-groovy-rosconsole-bridge,libboost1.46-all-dev,ros-groovy-kdl-parser,ros-groovy-octomap,ros-groovy-geometry-msgs,ros-groovy-urdfdom,ros-groovy-warehouse-ros,pkg-config
+Homepage: http://moveit.ros.org
+Standards-Version: 3.9.2
+
+Package: ros-groovy-moveit-source-build-deps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-rosconsole,libeigen3-dev,ros-groovy-urdf,ros-groovy-rqt,ros-groovy-ompl,ros-groovy-console-bridge,ros-groovy-pcl-ros,ros-groovy-rospy,ros-groovy-roscpp,ros-groovy-fcl,ros-groovy-actionlib,ros-groovy-eigen-conversions,ros-groovy-control-msgs,yaml-cpp0.2.6-dev,ros-groovy-tf,ros-groovy-geometric-shapes,ros-groovy-eigen-stl-containers,ros-groovy-shape-tools,ros-groovy-shape-msgs,ros-groovy-interactive-markers,ros-groovy-message-filters,python-dev,ros-groovy-rostime,ros-groovy-sensor-msgs,ros-groovy-octomap-msgs,assimp-dev,ros-groovy-random-numbers,ros-groovy-srdfdom,ros-groovy-manipulation-msgs,ros-groovy-tf-conversions,ros-groovy-rviz,ros-groovy-dynamic-reconfigure,ros-groovy-pluginlib,ros-groovy-rosconsole-bridge,libboost1.46-all-dev,ros-groovy-kdl-parser,ros-groovy-octomap,ros-groovy-geometry-msgs,ros-groovy-urdfdom,ros-groovy-warehouse-ros,pkg-config
+Description: Brings in dependencies needed to compile MoveIt from source
