@@ -1,6 +1,6 @@
 <package>
   <name>moveit_full</name>
-  <version>0.1.1</version>
+  <version>0.3.0</version>
   <description>All MoveIt components and plugins</description>
   <author email="isucan@willowgarage.com">Ioan Sucan</author>
   <author email="sachinc@willowgarage.com">Sachin Chitta</author>
@@ -11,7 +11,8 @@
 
   <url type="website">http://moveit.ros.org</url>
 
-  <build_depend>catkin</build_depend> 
+  <buildtool_depend>catkin</buildtool_depend> 
+
   <build_depend>moveit_ros</build_depend>
   <build_depend>moveit_planners</build_depend>
   <build_depend>moveit_setup_assistant</build_depend>
